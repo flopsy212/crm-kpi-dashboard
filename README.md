@@ -2,6 +2,11 @@
 
 CRMの商談データを想定し、Python・SQL・SQLite・Streamlitを使って、データ整形からKPI可視化までを行うダッシュボードを作成しました。
 
+# Demo
+
+Streamlit Community Cloudでデプロイしています。
+https://crm-kpi-dashboard-mxzspgar3faejwppknu5x7.streamlit.app
+
 ## 概要
 
 このプロジェクトでは、CRMに蓄積された商談データを想定したサンプルCSVを作成し、Pythonでデータ整形を行ったうえでSQLiteに格納しています。
