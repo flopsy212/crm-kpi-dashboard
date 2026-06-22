@@ -1,17 +1,20 @@
 # crm-kpi-dashboard
 
-CRMの商談データを想定し、Python・SQL・SQLite・Streamlitを使って、データ整形からKPI可視化までを行うダッシュボードを作成しました。
+CRMの商談データを想定し、Python・SQLite・SQL・Streamlitを使って、データ整形からKPI可視化までを行うダッシュボードを作成しました。
 
-# Demo
+## Demo
 
 Streamlit Community Cloudでデプロイしています。
-https://crm-kpi-dashboard-mxzspgar3faejwppknu5x7.streamlit.app
+
+[CRM KPI Dashboardを開く](https://crm-kpi-dashboard-mxzspgar3faejwppknu5x7.streamlit.app)
 
 ## 概要
 
 このプロジェクトでは、CRMに蓄積された商談データを想定したサンプルCSVを作成し、Pythonでデータ整形を行ったうえでSQLiteに格納しています。
 
-その後、SQLで売上合計・商談件数・受注率・月別売上・担当者別売上などのKPIを集計し、Streamlitでダッシュボードとして可視化しています。
+その後、売上合計・商談件数・受注率・月別売上・担当者別売上などのKPIを確認できるようにし、Streamlitでダッシュボードとして可視化しています。
+
+また、`kpi_queries.sql` にKPI集計用のSQLをまとめており、データベースから必要な指標を抽出・集計する流れも確認できる構成にしています。
 
 データ抽出・整形・DB格納・SQL集計・ダッシュボード化までの一連の流れを確認できるポートフォリオです。
 
